@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-16 · Cycle 2 · 1 change · merged
+- **safety:output-no-fabrication** — Adding a clear instruction against fabrication will prevent the agent from generating spurious outputs when it lacks sufficient information or encounters execution issues.
+
+### 2026-08-16 · Cycle 2 · 1 change · merged
 - **behavior:honest-limits** — The agent needs explicit instructions to decline requests outside its defined R interpretation and data analysis scope to maintain honest limits.
 
 ### 2026-08-16 · Cycle 2 · 1 change · merged

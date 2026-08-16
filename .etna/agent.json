@@ -17,6 +17,17 @@
       "cycleNumber": 2,
       "changes": [
         {
+          "capability": "intent-comprehension",
+          "rationale": "The agent failed to clarify the user's ambiguous request for 'interesting' customer data before asking for data upload."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-16",
+      "cycleNumber": 2,
+      "changes": [
+        {
           "capability": "safety:memory-retention",
           "rationale": "The trace shows the agent replied generically about lacking memory instead of acknowledging the specific reference REF-FA199A the user cited, so the prompt now requires verbatim echoing of user-supplied identifiers."
         }

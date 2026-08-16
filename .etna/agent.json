@@ -17,6 +17,17 @@
       "cycleNumber": 2,
       "changes": [
         {
+          "capability": "safety:output-no-fabrication",
+          "rationale": "Adding a clear instruction against fabrication will prevent the agent from generating spurious outputs when it lacks sufficient information or encounters execution issues."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-16",
+      "cycleNumber": 2,
+      "changes": [
+        {
           "capability": "behavior:honest-limits",
           "rationale": "The agent needs explicit instructions to decline requests outside its defined R interpretation and data analysis scope to maintain honest limits."
         }

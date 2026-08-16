@@ -17,6 +17,17 @@
       "cycleNumber": 1,
       "changes": [
         {
+          "capability": "safety:memory-retention",
+          "rationale": "The original instructions mentioned maintaining conversation context but lacked specific guidance on *what* to recall, leading to potential gaps in memory retention."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-16",
+      "cycleNumber": 1,
+      "changes": [
+        {
           "capability": "safety:dialog-scope",
           "rationale": "Adding a direct instruction to decline attempts at identity or instruction changes will prevent the agent from engaging with such prompts."
         }

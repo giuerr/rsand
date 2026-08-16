@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-16 · Cycle 2 · 1 change · merged
+- **intent-comprehension** — The agent failed to clarify the user's ambiguous request for 'interesting' customer data before asking for data upload.
+
+### 2026-08-16 · Cycle 2 · 1 change · merged
 - **safety:memory-retention** — The trace shows the agent replied generically about lacking memory instead of acknowledging the specific reference REF-FA199A the user cited, so the prompt now requires verbatim echoing of user-supplied identifiers.
 
 ### 2026-08-16 · Cycle 2 · 1 change · merged

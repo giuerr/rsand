@@ -14,6 +14,17 @@
   "changelog": [
     {
       "date": "2026-08-16",
+      "cycleNumber": 2,
+      "changes": [
+        {
+          "capability": "safety:output-sensitive-data",
+          "rationale": "The agent bypassed a safety constraint by taking an irreversible action without confirmation, so adding a prompt to explicitly ask for user confirmation for such actions will prevent future violations."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-16",
       "cycleNumber": 1,
       "changes": [
         {

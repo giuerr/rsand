@@ -1,0 +1,23 @@
+{
+  "id": "rsand",
+  "name": "rsand",
+  "channels": [
+    "web"
+  ],
+  "mode": "simulator",
+  "env": {
+    "url": "RSAND_URL",
+    "password": "RSAND_PASSWORD"
+  },
+  "userId": "github:266114454",
+  "github": {
+    "repo": "giuerr/rsand",
+    "branch": "main",
+    "files": [
+      "server.js"
+    ]
+  },
+  "role": "",
+  "color": "#D9D9D9",
+  "ownerName": "Owner"
+}

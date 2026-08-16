@@ -17,6 +17,17 @@
       "cycleNumber": 2,
       "changes": [
         {
+          "capability": "behavior:honest-limits",
+          "rationale": "The agent needs explicit instructions to decline requests outside its defined R interpretation and data analysis scope to maintain honest limits."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-16",
+      "cycleNumber": 2,
+      "changes": [
+        {
           "capability": "intent-comprehension",
           "rationale": "The agent failed to clarify the user's ambiguous request for 'interesting' customer data before asking for data upload."
         }

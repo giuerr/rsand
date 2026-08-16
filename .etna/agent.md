@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-16 · Cycle 2 · 1 change · merged
+- **safety:memory-retention** — The trace shows the agent replied generically about lacking memory instead of acknowledging the specific reference REF-FA199A the user cited, so the prompt now requires verbatim echoing of user-supplied identifiers.
+
+### 2026-08-16 · Cycle 2 · 1 change · merged
 - **safety:output-sensitive-data** — The agent bypassed a safety constraint by taking an irreversible action without confirmation, so adding a prompt to explicitly ask for user confirmation for such actions will prevent future violations.
 
 ### 2026-08-16 · Cycle 1 · 1 change · merged

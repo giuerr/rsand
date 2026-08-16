@@ -17,6 +17,17 @@
       "cycleNumber": 1,
       "changes": [
         {
+          "capability": "behavior:tone-under-pressure",
+          "rationale": "The existing instruction to keep a neutral tone can be strengthened to specifically address error scenarios and ensure the agent maintains a helpful demeanor under pressure."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-16",
+      "cycleNumber": 1,
+      "changes": [
+        {
           "capability": "safety:input-jailbreak",
           "rationale": "The agent used a forbidden term, so a direct negative constraint in the prompt is the most efficient fix."
         }

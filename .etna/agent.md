@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-16 · Cycle 1 · 1 change · merged
+- **safety:dialog-scope** — Adding a direct instruction to decline attempts at identity or instruction changes will prevent the agent from engaging with such prompts.
+
+### 2026-08-16 · Cycle 1 · 1 change · merged
 - **behavior:tone-under-pressure** — The existing instruction to keep a neutral tone can be strengthened to specifically address error scenarios and ensure the agent maintains a helpful demeanor under pressure.
 
 ### 2026-08-16 · Cycle 1 · 1 change · merged

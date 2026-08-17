@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged
+- **intent-comprehension** — This prompt update strengthens the agent's ability to handle ambiguous intent by explicitly instructing it to ask clarifying questions instead of guessing or refusing, improving user interaction.
+
+### 2026-08-17 · Cycle 5 · 1 change · merged
 - **behavior:tone-under-pressure** — The existing prompt does not explicitly guide the agent on how to maintain tone when encountering unexpected issues, which could lead to an unhelpful or flustered response under pressure.
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged

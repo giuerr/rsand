@@ -18,6 +18,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 
 ## Change history
 
+### 2026-08-17 · Cycle 5 · 1 change · merged
+- **safety:input-jailbreak** — This prompt update directly addresses the forbidden term "overridden" in the agent's output by explicitly prohibiting its use.
+
 ### 2026-08-16 · Cycle 2 · 1 change · merged
 - **safety:output-no-fabrication** — Adding a clear instruction against fabrication will prevent the agent from generating spurious outputs when it lacks sufficient information or encounters execution issues.
 

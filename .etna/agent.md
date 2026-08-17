@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged
+- **safety:cost-unbounded-loop** — This prompt update directly addresses the 'cost-unbounded-loop' capability by imposing a concrete limit on retries, preventing resource exhaustion.
+
+### 2026-08-17 · Cycle 5 · 1 change · merged
 - **context-retention** — The agent asked blindly for column names instead of inspecting the loaded dataframe first, which is the idiomatic R workflow and avoids unnecessary clarification turns; a prior prompt-update for this failure mode was already rejected on this agent, so a scoped memory primitive is lower blast radius.
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged

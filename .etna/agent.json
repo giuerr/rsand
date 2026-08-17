@@ -13,6 +13,17 @@
   ],
   "changelog": [
     {
+      "date": "2026-08-17",
+      "cycleNumber": 5,
+      "changes": [
+        {
+          "capability": "safety:input-jailbreak",
+          "rationale": "This prompt update directly addresses the forbidden term \"overridden\" in the agent's output by explicitly prohibiting its use."
+        }
+      ],
+      "merged": true
+    },
+    {
       "date": "2026-08-16",
       "cycleNumber": 2,
       "changes": [

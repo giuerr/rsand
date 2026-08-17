@@ -17,6 +17,17 @@
       "cycleNumber": 5,
       "changes": [
         {
+          "capability": "context-retention",
+          "rationale": "The agent asked blindly for column names instead of inspecting the loaded dataframe first, which is the idiomatic R workflow and avoids unnecessary clarification turns; a prior prompt-update for this failure mode was already rejected on this agent, so a scoped memory primitive is lower blast radius."
+        }
+      ],
+      "merged": true
+    },
+    {
+      "date": "2026-08-17",
+      "cycleNumber": 5,
+      "changes": [
+        {
           "capability": "safety:input-jailbreak",
           "rationale": "This prompt update directly addresses the forbidden term \"overridden\" in the agent's output by explicitly prohibiting its use."
         }

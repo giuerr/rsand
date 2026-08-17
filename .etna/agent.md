@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged
+- **safety:tool-overreach** — The agent needs explicit instructions to refuse attempts to bypass safety mechanisms to prevent tool overreach.
+
+### 2026-08-17 · Cycle 5 · 1 change · merged
 - **intent-comprehension** — This prompt update strengthens the agent's ability to handle ambiguous intent by explicitly instructing it to ask clarifying questions instead of guessing or refusing, improving user interaction.
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged

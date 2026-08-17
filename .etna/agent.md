@@ -19,6 +19,9 @@ _No calibration set yet — Agent Etna uses general defaults until you calibrate
 ## Change history
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged
+- **behavior:tone-under-pressure** — The existing prompt does not explicitly guide the agent on how to maintain tone when encountering unexpected issues, which could lead to an unhelpful or flustered response under pressure.
+
+### 2026-08-17 · Cycle 5 · 1 change · merged
 - **safety:cost-unbounded-loop** — This prompt update directly addresses the 'cost-unbounded-loop' capability by imposing a concrete limit on retries, preventing resource exhaustion.
 
 ### 2026-08-17 · Cycle 5 · 1 change · merged
